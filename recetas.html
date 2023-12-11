@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/recetas.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Inicio bienvenido</title>
+</head>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="imagenes/renova.png.png" alt="" height="120px" width="120px"></a>
+    <img src="imagenes/Picsart_23-12-03_17-24-57-703.png" alt="" height="150px" width="150px">
+      
+  </header>
+  <nav>
+          
+    <nav class="navbar navbar-expand-lg" style="justify-content: center;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+    
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ofertas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Servicios</a></li>
+                <li><a class="dropdown-item" href="#">Al detal</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Ofertas por compra</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="Buscar">
+            <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</nav>
+    
+  <section>
+    <section class="menu"></section>
+    <div class="product">
+      <img src="imagenes/pollo.png" alt="Pollo entero" width="150" height="150">
+        <h2>Pollo Entero</h2>
+        <p>Jugoso pollo entero, fresco y de granja.</p>
+        
+        <button onclick="showRecipe('pollo-entero-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/Ala.png" alt="Pollo entero" width="150" height="150">
+        <h2>Alas de Pollo</h2>
+        <p>Alas de pollo crujientes y bien sazonadas.</p>
+        
+        <button onclick="showRecipe('alas-pollo-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/pata.png" alt="Pollo entero" width="150" height="150">
+        <h2>Patas de Pollo</h2>
+        <p>Perfectas para guisos y platos reconfortantes.</p>
+       
+        <button onclick="showRecipe('patas-pollo-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/pechuga.png" alt="Pollo entero" width="150" height="150">
+        <h2>Pechugas de Pollo</h2>
+        <p>Filetes de pechuga de pollo tiernos y sin hueso.</p>
+        
+        <button onclick="showRecipe('pechugas-pollo-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/pernil2.png" alt="Pollo entero" width="150" height="150">
+        <h2>Pernil de Pollo</h2>
+        <p>Porción jugosa y sabrosa de pollo.</p>
+        
+        <button onclick="showRecipe('pernil-pollo-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/chuleta.png" alt="Pollo entero" width="150" height="150">
+        <h2>Chuleta de Cerdo</h2>
+        <p>Chuletas de cerdo jugosas y listas para cocinar.</p>
+        
+        <button onclick="showRecipe('chuletas-cerdo-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/filetes-removebg-preview.png" alt="Pollo entero" width="150" height="150">
+        <h2>Filete de Pechuga</h2>
+        <p>Filetes delgados y versátiles de pechuga de pollo.</p>
+        
+        <button onclick="showRecipe('filetes-pechuga-recipe')">Ver Receta</button>
+    </div>
+
+    <div class="product">
+      <img src="imagenes/imageschurrasco-removebg-preview.png" alt="Pollo entero" width="150" height="150">
+        <h2>Churrascos de Pechuga</h2>
+        <p>Churrascos de pechuga de pollo marinados y listos para asar.</p>
+        
+        <button onclick="showRecipe('churrascos-pechuga-recipe')">Ver Receta</button>
+    </div>
+</section>
+
+<div class="recipe" id="pollo-entero-recipe" style="display:none;">
+    <h2>Receta de Pollo Entero Asado con Hierbas</h2>
+    <p>Sazona el pollo con sal y pimienta.</p>
+    <p>Rellena la cavidad con ramitas de romero y rodajas de limón.</p>
+    <p>Unta mantequilla de hierbas sobre la piel.</p>
+    <p>Asa en el horno a 180°C durante 90 minutos.</p>
+    <p>Deja reposar antes de cortar y disfruta con guarniciones frescas.</p>
+</div>
+
+<div class="recipe" id="alas-pollo-recipe" style="display:none;">
+    <h2>Receta de Alitas de Pollo a la Barbacoa</h2>
+    <p>Marinar las alas en salsa barbacoa, miel y salsa de soja.</p>
+    <p>Hornear a 200°C durante 25-30 minutos.</p>
+    <p>Voltear a la mitad del tiempo para una cocción uniforme.</p>
+    <p>Servir con bastones de apio y aderezo de queso azul.</p>
+    <p>¡Perfectas para aperitivos o comidas informales!</p>
+</div>
+
+<div class="recipe" id="patas-pollo-recipe" style="display:none;">
+    <h2>Receta de Guiso de Patas de Pollo</h2>
+    <p>Sofríe cebolla, ajo y zanahorias en aceite de oliva.</p>
+    <p>Agrega las patas de pollo y dora ligeramente.</p>
+    <p>Vierte caldo de pollo y tomate triturado.</p>
+    <p>Cocina a fuego lento durante 1.5 horas.</p>
+    <p>Sirve sobre arroz para un plato reconfortante.</p>
+</div>
+
+<div class="recipe" id="pechugas-pollo-recipe" style="display:none;">
+    <h2>Receta de Pechugas de Pollo a la Parrilla</h2>
+    <p>Sazona las pechugas con ajo, pimienta y limón.</p>
+    <p>Cocina a la parrilla a fuego medio durante 15 minutos.</p>
+    <p>Voltear a la mitad del tiempo para un dorado uniforme.</p>
+    <p>Sirve con ensalada fresca o vegetales asados.</p>
+    <p>¡Una opción saludable y deliciosa!</p>
+</div>
+
+<div class="recipe" id="pernil-pollo-recipe" style="display:none;">
+    <h2>Receta de Pernil de Pollo al Horno</h2>
+    <p>Coloca el pernil en una bandeja y sazona con sal y pimienta.</p>
+    <p>Asa en el horno a 160°C durante 2 horas.</p>
+    <p>Rocía con los jugos para mantener la humedad.</p>
+    <p>Acompaña con puré de papas o verduras asadas.</p>
+    <p>¡Una opción jugosa y llena de sabor!</p>
+</div>
+
+<div class="recipe" id="chuletas-cerdo-recipe" style="display:none;">
+    <h2>Receta de Chuletas de Cerdo Glaseadas</h2>
+    <p>Mezcla mostaza, miel, ajo picado y romero.</p>
+    <p>Unta las chuletas con la mezcla y ásalas a la parrilla.</p>
+    <p>Sirve con batatas asadas o arroz pilaf.</p>
+    <p>El glaseado le da un toque dulce y sabroso.</p>
+    <p>¡Perfecto para una cena especial!</p>
+</div>
+
+<div class="recipe" id="filetes-pechuga-recipe" style="display:none;">
+    <h2>Receta de Salteado de Filetes de Pechuga</h2>
+    <p>Corta los filetes en tiras y saltea con verduras mixtas (brócoli, zanahorias, pimientos).</p>
+    <p>Agrega salsa de soja y jengibre al gusto.</p>
+    <p>Sirve sobre arroz o fideos de huevo.</p>
+    <p>Rápido, saludable y lleno de sabor.</p>
+    <p>¡Perfecto para una comida rápida entre semana!</p>
+</div>
+
+<div class="recipe" id="churrascos-pechuga-recipe" style="display:none;">
+    <h2>Receta de Churrascos de Pechuga con Salsa de Hierbas</h2>
+    <p>Asa los churrascos a la parrilla.</p>
+    <p>Mezcla perejil, albahaca, ajo, aceite de oliva y sal para hacer una salsa fresca.</p>
+    <p>Sirve los churrascos con la salsa y acompañados de papas asadas.</p>
+    <p>¡Una opción elegante para una cena deliciosa!</p>
+</div>
+
+<script>
+    function showRecipe(recipeId) {
+        var recipes = document.querySelectorAll('.recipe');
+        recipes.forEach(function(recipe) {
+            recipe.style.display = 'none';
+        });
+
+        var selectedRecipe = document.getElementById(recipeId);
+        if (selectedRecipe) {
+            selectedRecipe.style.display = 'block';
+        }
+    }
+</script>
+</section>
+</body>
+</html>
+        
+            </main>
+            
+
+           
+        </div>
+        <footer>
+            <div class="izq">
+              <img src="imagenes/renova.png.png" alt="" height="100px" width="100px">
+                <strong>FieldChiken</strong><br>
+                FieldChiken@gmail.com<br>
+                Tel: (+57) 3136725937<br>
+                Dir: Cr 8F 6E-80<br><br>
+                <strong>Powered by Jhoiner Martinez</strong><br>
+                Jhoinermartinez243@gmail.com<br>
+                &copy; All right reserved<br>
+                2023
+            </div>
+
+            <div class="centro">
+                <strong>Políticas:</strong><br>
+                <ul>
+                    <li><a href="##">Política de privacidad</a></li>
+                    <li><a href="##">Términos y condiciones</a></li>
+                    <li><a href="##">Política de cookies</a></li>
+                </ul>
+            </div>
+
+            <div class="der">
+                <strong>Redes sociales:</strong><br><br>
+                <a href="https://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg></a>
+                <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>           

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo_copy.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Inicio bienvenido</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <a href="index.html"><img src="imagenes/renova.png.png" alt="" height="120px" width="120px"></a>
+          <img src="imagenes/Picsart_23-12-03_17-24-57-703.png" alt="" height="150px" width="150px">
+            
+        </header>
+       
+
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a href="index.html"><img src="imagenes/renova.png.png" alt="" height="120px" width="120px"></a><a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="recetas.html">Recetas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex mt-3" role="Buscar">
+                  <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="contenido">
+          
+            <main>
+             
+             
+              <section>
+                <!-- Pollo Entero -->
+                <div class="product">
+                    <img src="pollo_entero.jpg" alt="Pollo Entero">
+                    <h2>Pollo Entero</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Pollo Entero</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Compra más de 15 kg y recibe un descuento del 10%.</li>
+                            <li>Lleva 2 pollos enteros y el tercero te sale a mitad de precio.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Alas de Pollo -->
+                <div class="product">
+                    <img src="alas_pollo.jpg" alt="Alas de Pollo">
+                    <h2>Alas de Pollo</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Alas de Pollo</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Compra más de 10 kg y recibe un descuento del 8%.</li>
+                            <li>Lleva 3 kg de alas y obtén un paquete de salsas gratis.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Patas de Pollo -->
+                <div class="product">
+                    <img src="patas_pollo.jpg" alt="Patas de Pollo">
+                    <h2>Patas de Pollo</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Patas de Pollo</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Lleva 5 kg de patas y obtén un descuento adicional del 15%.</li>
+                            <li>Compra más de 8 kg y recibe un paquete de condimentos gratis.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Pechugas de Pollo -->
+                <div class="product">
+                    <img src="pechugas_pollo.jpg" alt="Pechugas de Pollo">
+                    <h2>Pechugas de Pollo</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Pechugas de Pollo</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Compra 4 kg o más y obtén un descuento del 12%.</li>
+                            <li>Lleva 2 kg de pechugas y recibe una marinada especial de regalo.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Pernil de Pollo -->
+                <div class="product">
+                    <img src="pernil_pollo.jpg" alt="Pernil de Pollo">
+                    <h2>Pernil de Pollo</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Pernil de Pollo</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        
+                        <ul>
+                            <li>Compra más de 10 kg y recibe un descuento del 8%.</li>
+                            <li>Lleva 3 porciones y obtén un paquete de hierbas frescas gratis.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Chuleta de Cerdo -->
+                <div class="product">
+                    <img src="chuletas_cerdo.jpg" alt="Chuleta de Cerdo">
+                    <h2>Chuleta de Cerdo</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Chuleta de Cerdo</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Lleva 6 chuletas y recibe un descuento adicional del 10%.</li>
+                            <li>Compra más de 8 kg y obtén una botella de salsa barbacoa gratis.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Filete de Pechuga -->
+                <div class="product">
+                    <img src="filete_pechuga.jpg" alt="Filete de Pechuga">
+                    <h2>Filete de Pechuga</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Filete de Pechuga</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Compra 3 kg o más y obtén un descuento del 15%.</li>
+                            <li>Lleva 2 kg y recibe un paquete de especias gourmet de cortesía.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Churrascos de Pechuga -->
+                <div class="product">
+                    <img src="churrascos_pechuga.jpg" alt="Churrascos de Pechuga">
+                    <h2>Churrascos de Pechuga</h2>
+                    <div class="offers">
+                        <h3>Ofertas para Churrascos de Pechuga</h3> <button onclick="showOffers('alas-pollo-offers')">Ver Ofertas</button>
+                        <div class="features" id="alas-pollo-features" style="display:none;">
+                            <!-- Características de Alas de Pollo -->
+                        </div>
+                        <div class="features" id="alas-pollo-offers" style="display:none;">
+                        <ul>
+                            <li>Lleva 4 kg y recibe un descuento del 12%.</li>
+                            <li>Compra más de 6 kg y obtén una botella de vino gratis.</li>
+                            <!-- Puedes agregar más ofertas según tus preferencias -->
+                        </ul>
+                    </div>
+                </div>
+        
+            </section>
+            <script>
+              // Función para mostrar características específicas al hacer clic en el botón correspondiente
+              function showFeatures(featuresId) {
+                  var features = document.querySelectorAll('.features');
+                  features.forEach(function(feature) {
+                      feature.style.display = 'none';
+                  });
+      
+                  var selectedFeatures = document.getElementById(featuresId);
+                  if (selectedFeatures) {
+                      selectedFeatures.style.display = 'block';
+                  }
+              }
+      
+              // Función para mostrar ofertas específicas al hacer clic en el botón correspondiente
+              function showOffers(offersId) {
+                  var offers = document.querySelectorAll('.features');
+                  offers.forEach(function(offer) {
+                      offer.style.display = 'none';
+                  });
+      
+                  var selectedOffers = document.getElementById(offersId);
+                  if (selectedOffers) {
+                      selectedOffers.style.display = 'block';
+                  }
+              }
+          </script>
+            </main>
+            
+
+           
+        </div>
+        <footer>
+            <div class="izq">
+              <img src="imagenes/renova.png.png" alt="" height="100px" width="100px">
+                <strong>FieldChiken</strong><br>
+                FieldChiken@gmail.com<br>
+                Tel: (+57) 3136725937<br>
+                Dir: Cr 8F 6E-80<br><br>
+                <strong>Powered by Jhoiner Martinez</strong><br>
+                Jhoinermartinez243@gmail.com<br>
+                &copy; All right reserved<br>
+                2023
+            </div>
+
+            <div class="centro">
+                <strong>Políticas:</strong><br>
+                <ul>
+                    <li><a href="##">Política de privacidad</a></li>
+                    <li><a href="##">Términos y condiciones</a></li>
+                    <li><a href="##">Política de cookies</a></li>
+                </ul>
+            </div>
+
+            <div class="der">
+                <strong>Redes sociales:</strong><br><br>
+                <a href="https://www.instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg></a>
+                <a href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>           
